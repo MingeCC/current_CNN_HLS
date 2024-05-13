@@ -1,0 +1,53 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'top_net'" level="0">
+<item name = "Date">Mon May 13 18:06:51 2024
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">c_cnn</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">50.00, 43.750, 6.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">486577, 486577, 486577, 486577, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="grp_conv_1_fu_212">conv_1, 174049, 174049, 174049, 174049, none</column>
+<column name="grp_conv_2_fu_225">conv_2, 246401, 246401, 246401, 246401, none</column>
+<column name="grp_conv_3_fu_235">conv_3, 48481, 48481, 48481, 48481, none</column>
+<column name="grp_conv_4_fu_245">conv_4, 10417, 10417, 10417, 10417, none</column>
+<column name="grp_conv_5_fu_255">conv_5, 881, 881, 881, 881, none</column>
+<column name="grp_max_pool_2D_1_fu_265">max_pool_2D_1, 4706, 4706, 4706, 4706, none</column>
+<column name="grp_max_pool_2D_fu_271">max_pool_2D, 1602, 1602, 1602, 1602, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">18, 18, 2, -, -, 9, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

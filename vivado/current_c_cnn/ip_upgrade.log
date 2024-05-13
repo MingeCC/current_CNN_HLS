@@ -1,0 +1,79 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon May 13 17:07:09 2024
+| Host         : Mingyi_TX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_top_net_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_top_net_0_0 (xilinx.com:hls:top_net:1.0) from (Rev. 2113554897) to (Rev. 2113556106)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun May 12 20:58:36 2024
+| Host         : Mingyi_TX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_top_net_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_top_net_0_0 (xilinx.com:hls:top_net:1.0) from (Rev. 2113554789) to (Rev. 2113554897)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun May 12 19:10:39 2024
+| Host         : Mingyi_TX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_top_net_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_top_net_0_0 (xilinx.com:hls:top_net:1.0) from (Rev. 2113554644) to (Rev. 2113554789)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun May 12 16:50:18 2024
+| Host         : Mingyi_TX running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_top_net_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_top_net_0_0 (xilinx.com:hls:top_net:1.0) from (Rev. 2113554308) to (Rev. 2113554644)
+

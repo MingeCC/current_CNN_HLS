@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="utils.h" path="F:\Desktop\PRJ\current_cnn\hls\c_cnn\utils.h"/>
+    <originFiles name="top.cpp" path="F:\Desktop\PRJ\current_cnn\hls\c_cnn\top.cpp"/>
+    <originFiles name="pool_core.cpp" path="F:\Desktop\PRJ\current_cnn\hls\c_cnn\pool_core.cpp"/>
+    <originFiles name="load.cpp" path="F:\Desktop\PRJ\current_cnn\hls\c_cnn\load.cpp"/>
+    <originFiles name="conv_core.cpp" path="F:\Desktop\PRJ\current_cnn\hls\c_cnn\conv_core.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main_load.cpp" path="F:\Desktop\PRJ\current_cnn\hls\c_cnn\main_load.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

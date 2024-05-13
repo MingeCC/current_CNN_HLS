@@ -1,0 +1,1635 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon May 13 17:13:56 2024
+| Host         : Mingyi_TX running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 320
++-----------+----------+-----------------------+------------+
+| Rule      | Severity | Description           | Violations |
++-----------+----------+-----------------------+------------+
+| TIMING-16 | Warning  | Large setup violation | 320        |
++-----------+----------+-----------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -12.900 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -12.945 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -13.080 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -13.096 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -13.126 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -13.140 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -13.170 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[25]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -13.188 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -13.236 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[20]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -13.247 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[24]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -13.328 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -13.378 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -13.383 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[20]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -13.401 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[22]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -13.449 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[18]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -13.474 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -13.523 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -13.582 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[18]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -13.602 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -13.607 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_5/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -13.616 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[17]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -13.617 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[16]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -13.632 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[19]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -13.645 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[19]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -13.685 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[26]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -13.696 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_2/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -13.701 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[23]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -13.704 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_2/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -13.728 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[28]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -13.737 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[28]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -13.743 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -13.754 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_2/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -13.760 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_2/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -13.774 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[29]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -13.777 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[27]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -13.786 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[27]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -13.834 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -13.842 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[10] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -13.860 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_3/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -13.860 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[17]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -13.870 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -13.881 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[21]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -13.883 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[20]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -13.886 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[4] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -13.903 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_3/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -13.916 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[22]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -13.925 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_5/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -13.926 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_5/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -13.936 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_4/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -13.937 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -13.939 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -13.942 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[30]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -13.945 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[24]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -13.951 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[26]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -13.954 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -13.959 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -13.974 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_7/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -13.984 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[24]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#59 Warning
+Large setup violation  
+There is a large setup violation of -13.985 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#60 Warning
+Large setup violation  
+There is a large setup violation of -13.986 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[28]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#61 Warning
+Large setup violation  
+There is a large setup violation of -13.986 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[25]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#62 Warning
+Large setup violation  
+There is a large setup violation of -13.997 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_0/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#63 Warning
+Large setup violation  
+There is a large setup violation of -14.016 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_5/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#64 Warning
+Large setup violation  
+There is a large setup violation of -14.021 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#65 Warning
+Large setup violation  
+There is a large setup violation of -14.029 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_4/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#66 Warning
+Large setup violation  
+There is a large setup violation of -14.029 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#67 Warning
+Large setup violation  
+There is a large setup violation of -14.032 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#68 Warning
+Large setup violation  
+There is a large setup violation of -14.041 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#69 Warning
+Large setup violation  
+There is a large setup violation of -14.047 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#70 Warning
+Large setup violation  
+There is a large setup violation of -14.053 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#71 Warning
+Large setup violation  
+There is a large setup violation of -14.056 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_3/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#72 Warning
+Large setup violation  
+There is a large setup violation of -14.062 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[23]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#73 Warning
+Large setup violation  
+There is a large setup violation of -14.063 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[21]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#74 Warning
+Large setup violation  
+There is a large setup violation of -14.065 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_4/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#75 Warning
+Large setup violation  
+There is a large setup violation of -14.076 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[16]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#76 Warning
+Large setup violation  
+There is a large setup violation of -14.084 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_0/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#77 Warning
+Large setup violation  
+There is a large setup violation of -14.088 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_3/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#78 Warning
+Large setup violation  
+There is a large setup violation of -14.095 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_4/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#79 Warning
+Large setup violation  
+There is a large setup violation of -14.096 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#80 Warning
+Large setup violation  
+There is a large setup violation of -14.097 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#81 Warning
+Large setup violation  
+There is a large setup violation of -14.098 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[13] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#82 Warning
+Large setup violation  
+There is a large setup violation of -14.108 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[19]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#83 Warning
+Large setup violation  
+There is a large setup violation of -14.111 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_0/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#84 Warning
+Large setup violation  
+There is a large setup violation of -14.127 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#85 Warning
+Large setup violation  
+There is a large setup violation of -14.133 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[4] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#86 Warning
+Large setup violation  
+There is a large setup violation of -14.143 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[11] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#87 Warning
+Large setup violation  
+There is a large setup violation of -14.146 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#88 Warning
+Large setup violation  
+There is a large setup violation of -14.148 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[9] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#89 Warning
+Large setup violation  
+There is a large setup violation of -14.160 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#90 Warning
+Large setup violation  
+There is a large setup violation of -14.160 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#91 Warning
+Large setup violation  
+There is a large setup violation of -14.163 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[12] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#92 Warning
+Large setup violation  
+There is a large setup violation of -14.170 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_1/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#93 Warning
+Large setup violation  
+There is a large setup violation of -14.175 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#94 Warning
+Large setup violation  
+There is a large setup violation of -14.181 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#95 Warning
+Large setup violation  
+There is a large setup violation of -14.187 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_0/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#96 Warning
+Large setup violation  
+There is a large setup violation of -14.189 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#97 Warning
+Large setup violation  
+There is a large setup violation of -14.196 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#98 Warning
+Large setup violation  
+There is a large setup violation of -14.208 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#99 Warning
+Large setup violation  
+There is a large setup violation of -14.211 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#100 Warning
+Large setup violation  
+There is a large setup violation of -14.240 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[23]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#101 Warning
+Large setup violation  
+There is a large setup violation of -14.242 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[21]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#102 Warning
+Large setup violation  
+There is a large setup violation of -14.248 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#103 Warning
+Large setup violation  
+There is a large setup violation of -14.251 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#104 Warning
+Large setup violation  
+There is a large setup violation of -14.254 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_1/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#105 Warning
+Large setup violation  
+There is a large setup violation of -14.260 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#106 Warning
+Large setup violation  
+There is a large setup violation of -14.268 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#107 Warning
+Large setup violation  
+There is a large setup violation of -14.268 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[29]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#108 Warning
+Large setup violation  
+There is a large setup violation of -14.271 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_7/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#109 Warning
+Large setup violation  
+There is a large setup violation of -14.272 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#110 Warning
+Large setup violation  
+There is a large setup violation of -14.274 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[17]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#111 Warning
+Large setup violation  
+There is a large setup violation of -14.286 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#112 Warning
+Large setup violation  
+There is a large setup violation of -14.290 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#113 Warning
+Large setup violation  
+There is a large setup violation of -14.297 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#114 Warning
+Large setup violation  
+There is a large setup violation of -14.301 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[9] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#115 Warning
+Large setup violation  
+There is a large setup violation of -14.314 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[19]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#116 Warning
+Large setup violation  
+There is a large setup violation of -14.315 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#117 Warning
+Large setup violation  
+There is a large setup violation of -14.315 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIPADIP[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#118 Warning
+Large setup violation  
+There is a large setup violation of -14.318 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_1/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#119 Warning
+Large setup violation  
+There is a large setup violation of -14.323 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[12] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#120 Warning
+Large setup violation  
+There is a large setup violation of -14.326 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#121 Warning
+Large setup violation  
+There is a large setup violation of -14.328 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#122 Warning
+Large setup violation  
+There is a large setup violation of -14.334 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_1/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#123 Warning
+Large setup violation  
+There is a large setup violation of -14.335 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_6/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#124 Warning
+Large setup violation  
+There is a large setup violation of -14.338 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[15] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#125 Warning
+Large setup violation  
+There is a large setup violation of -14.339 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#126 Warning
+Large setup violation  
+There is a large setup violation of -14.344 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[14] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#127 Warning
+Large setup violation  
+There is a large setup violation of -14.352 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#128 Warning
+Large setup violation  
+There is a large setup violation of -14.357 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[11] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#129 Warning
+Large setup violation  
+There is a large setup violation of -14.366 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#130 Warning
+Large setup violation  
+There is a large setup violation of -14.370 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#131 Warning
+Large setup violation  
+There is a large setup violation of -14.372 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#132 Warning
+Large setup violation  
+There is a large setup violation of -14.373 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#133 Warning
+Large setup violation  
+There is a large setup violation of -14.374 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[29]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#134 Warning
+Large setup violation  
+There is a large setup violation of -14.374 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#135 Warning
+Large setup violation  
+There is a large setup violation of -14.379 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[16]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#136 Warning
+Large setup violation  
+There is a large setup violation of -14.386 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[30]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#137 Warning
+Large setup violation  
+There is a large setup violation of -14.389 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#138 Warning
+Large setup violation  
+There is a large setup violation of -14.394 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[26]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#139 Warning
+Large setup violation  
+There is a large setup violation of -14.399 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIPADIP[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#140 Warning
+Large setup violation  
+There is a large setup violation of -14.410 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_6/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#141 Warning
+Large setup violation  
+There is a large setup violation of -14.436 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#142 Warning
+Large setup violation  
+There is a large setup violation of -14.442 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#143 Warning
+Large setup violation  
+There is a large setup violation of -14.454 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_6/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#144 Warning
+Large setup violation  
+There is a large setup violation of -14.461 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#145 Warning
+Large setup violation  
+There is a large setup violation of -14.481 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[27]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#146 Warning
+Large setup violation  
+There is a large setup violation of -14.491 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_7/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#147 Warning
+Large setup violation  
+There is a large setup violation of -14.519 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#148 Warning
+Large setup violation  
+There is a large setup violation of -14.520 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#149 Warning
+Large setup violation  
+There is a large setup violation of -14.525 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#150 Warning
+Large setup violation  
+There is a large setup violation of -14.540 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[14] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#151 Warning
+Large setup violation  
+There is a large setup violation of -14.541 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#152 Warning
+Large setup violation  
+There is a large setup violation of -14.545 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#153 Warning
+Large setup violation  
+There is a large setup violation of -14.551 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#154 Warning
+Large setup violation  
+There is a large setup violation of -14.566 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#155 Warning
+Large setup violation  
+There is a large setup violation of -14.570 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[11] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#156 Warning
+Large setup violation  
+There is a large setup violation of -14.572 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#157 Warning
+Large setup violation  
+There is a large setup violation of -14.591 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#158 Warning
+Large setup violation  
+There is a large setup violation of -14.599 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[17]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#159 Warning
+Large setup violation  
+There is a large setup violation of -14.599 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[15] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#160 Warning
+Large setup violation  
+There is a large setup violation of -14.600 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_6/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#161 Warning
+Large setup violation  
+There is a large setup violation of -14.602 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_20_20/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#162 Warning
+Large setup violation  
+There is a large setup violation of -14.603 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIPADIP[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#163 Warning
+Large setup violation  
+There is a large setup violation of -14.616 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#164 Warning
+Large setup violation  
+There is a large setup violation of -14.621 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[10] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#165 Warning
+Large setup violation  
+There is a large setup violation of -14.623 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[25]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#166 Warning
+Large setup violation  
+There is a large setup violation of -14.626 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIPADIP[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#167 Warning
+Large setup violation  
+There is a large setup violation of -14.629 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[24]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#168 Warning
+Large setup violation  
+There is a large setup violation of -14.634 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#169 Warning
+Large setup violation  
+There is a large setup violation of -14.639 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#170 Warning
+Large setup violation  
+There is a large setup violation of -14.655 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#171 Warning
+Large setup violation  
+There is a large setup violation of -14.658 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[27]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#172 Warning
+Large setup violation  
+There is a large setup violation of -14.666 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[29]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#173 Warning
+Large setup violation  
+There is a large setup violation of -14.669 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#174 Warning
+Large setup violation  
+There is a large setup violation of -14.673 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[25]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#175 Warning
+Large setup violation  
+There is a large setup violation of -14.676 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#176 Warning
+Large setup violation  
+There is a large setup violation of -14.681 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[23]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#177 Warning
+Large setup violation  
+There is a large setup violation of -14.682 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[22]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#178 Warning
+Large setup violation  
+There is a large setup violation of -14.688 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[25]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#179 Warning
+Large setup violation  
+There is a large setup violation of -14.689 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#180 Warning
+Large setup violation  
+There is a large setup violation of -14.691 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#181 Warning
+Large setup violation  
+There is a large setup violation of -14.699 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_0/DIADI[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#182 Warning
+Large setup violation  
+There is a large setup violation of -14.701 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[27]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#183 Warning
+Large setup violation  
+There is a large setup violation of -14.702 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#184 Warning
+Large setup violation  
+There is a large setup violation of -14.703 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[18]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#185 Warning
+Large setup violation  
+There is a large setup violation of -14.705 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[21]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#186 Warning
+Large setup violation  
+There is a large setup violation of -14.707 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[12] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#187 Warning
+Large setup violation  
+There is a large setup violation of -14.713 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[12] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#188 Warning
+Large setup violation  
+There is a large setup violation of -14.721 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#189 Warning
+Large setup violation  
+There is a large setup violation of -14.723 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[11] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#190 Warning
+Large setup violation  
+There is a large setup violation of -14.727 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[30]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#191 Warning
+Large setup violation  
+There is a large setup violation of -14.728 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#192 Warning
+Large setup violation  
+There is a large setup violation of -14.731 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#193 Warning
+Large setup violation  
+There is a large setup violation of -14.732 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#194 Warning
+Large setup violation  
+There is a large setup violation of -14.748 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[10] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#195 Warning
+Large setup violation  
+There is a large setup violation of -14.750 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[4] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#196 Warning
+Large setup violation  
+There is a large setup violation of -14.758 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#197 Warning
+Large setup violation  
+There is a large setup violation of -14.774 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#198 Warning
+Large setup violation  
+There is a large setup violation of -14.799 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_10_10/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#199 Warning
+Large setup violation  
+There is a large setup violation of -14.814 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#200 Warning
+Large setup violation  
+There is a large setup violation of -14.824 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#201 Warning
+Large setup violation  
+There is a large setup violation of -14.825 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[20]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#202 Warning
+Large setup violation  
+There is a large setup violation of -14.835 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[9] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#203 Warning
+Large setup violation  
+There is a large setup violation of -14.845 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[10] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#204 Warning
+Large setup violation  
+There is a large setup violation of -14.848 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[24]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#205 Warning
+Large setup violation  
+There is a large setup violation of -14.853 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[19]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#206 Warning
+Large setup violation  
+There is a large setup violation of -14.854 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#207 Warning
+Large setup violation  
+There is a large setup violation of -14.858 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#208 Warning
+Large setup violation  
+There is a large setup violation of -14.858 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[28]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#209 Warning
+Large setup violation  
+There is a large setup violation of -14.861 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[13] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#210 Warning
+Large setup violation  
+There is a large setup violation of -14.864 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#211 Warning
+Large setup violation  
+There is a large setup violation of -14.871 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[9] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#212 Warning
+Large setup violation  
+There is a large setup violation of -14.877 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_30_30/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#213 Warning
+Large setup violation  
+There is a large setup violation of -14.880 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[26]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#214 Warning
+Large setup violation  
+There is a large setup violation of -14.881 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#215 Warning
+Large setup violation  
+There is a large setup violation of -14.882 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_0_0/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#216 Warning
+Large setup violation  
+There is a large setup violation of -14.890 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#217 Warning
+Large setup violation  
+There is a large setup violation of -14.898 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[22]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#218 Warning
+Large setup violation  
+There is a large setup violation of -14.904 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_19_19/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#219 Warning
+Large setup violation  
+There is a large setup violation of -14.904 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[4] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#220 Warning
+Large setup violation  
+There is a large setup violation of -14.908 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_13_13/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#221 Warning
+Large setup violation  
+There is a large setup violation of -14.911 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#222 Warning
+Large setup violation  
+There is a large setup violation of -14.912 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_11_11/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#223 Warning
+Large setup violation  
+There is a large setup violation of -14.913 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[17]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#224 Warning
+Large setup violation  
+There is a large setup violation of -14.914 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#225 Warning
+Large setup violation  
+There is a large setup violation of -14.920 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_28_28/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#226 Warning
+Large setup violation  
+There is a large setup violation of -14.925 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[23]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#227 Warning
+Large setup violation  
+There is a large setup violation of -14.932 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[22]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#228 Warning
+Large setup violation  
+There is a large setup violation of -14.936 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#229 Warning
+Large setup violation  
+There is a large setup violation of -14.946 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[18]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#230 Warning
+Large setup violation  
+There is a large setup violation of -14.953 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_27_27/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#231 Warning
+Large setup violation  
+There is a large setup violation of -14.956 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[30]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#232 Warning
+Large setup violation  
+There is a large setup violation of -14.962 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#233 Warning
+Large setup violation  
+There is a large setup violation of -14.982 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_25_25/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#234 Warning
+Large setup violation  
+There is a large setup violation of -14.991 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#235 Warning
+Large setup violation  
+There is a large setup violation of -14.993 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_3_3/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#236 Warning
+Large setup violation  
+There is a large setup violation of -14.993 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[20]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#237 Warning
+Large setup violation  
+There is a large setup violation of -14.999 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#238 Warning
+Large setup violation  
+There is a large setup violation of -15.000 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#239 Warning
+Large setup violation  
+There is a large setup violation of -15.007 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_21_21/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#240 Warning
+Large setup violation  
+There is a large setup violation of -15.016 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#241 Warning
+Large setup violation  
+There is a large setup violation of -15.019 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_24_24/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#242 Warning
+Large setup violation  
+There is a large setup violation of -15.028 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[26]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#243 Warning
+Large setup violation  
+There is a large setup violation of -15.032 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_7_7/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#244 Warning
+Large setup violation  
+There is a large setup violation of -15.040 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#245 Warning
+Large setup violation  
+There is a large setup violation of -15.043 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#246 Warning
+Large setup violation  
+There is a large setup violation of -15.050 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[18]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#247 Warning
+Large setup violation  
+There is a large setup violation of -15.069 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#248 Warning
+Large setup violation  
+There is a large setup violation of -15.072 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#249 Warning
+Large setup violation  
+There is a large setup violation of -15.077 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_15_15/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#250 Warning
+Large setup violation  
+There is a large setup violation of -15.079 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_9_9/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#251 Warning
+Large setup violation  
+There is a large setup violation of -15.083 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[11] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#252 Warning
+Large setup violation  
+There is a large setup violation of -15.084 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_4_4/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#253 Warning
+Large setup violation  
+There is a large setup violation of -15.088 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_8_8/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#254 Warning
+Large setup violation  
+There is a large setup violation of -15.092 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[11] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#255 Warning
+Large setup violation  
+There is a large setup violation of -15.096 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_2_2/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#256 Warning
+Large setup violation  
+There is a large setup violation of -15.100 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[12] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#257 Warning
+Large setup violation  
+There is a large setup violation of -15.106 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#258 Warning
+Large setup violation  
+There is a large setup violation of -15.107 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[16]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#259 Warning
+Large setup violation  
+There is a large setup violation of -15.116 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_17_17/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#260 Warning
+Large setup violation  
+There is a large setup violation of -15.117 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#261 Warning
+Large setup violation  
+There is a large setup violation of -15.118 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[28]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#262 Warning
+Large setup violation  
+There is a large setup violation of -15.126 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[29]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#263 Warning
+Large setup violation  
+There is a large setup violation of -15.127 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_12_12/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#264 Warning
+Large setup violation  
+There is a large setup violation of -15.129 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_23_23/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#265 Warning
+Large setup violation  
+There is a large setup violation of -15.132 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_1_1/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#266 Warning
+Large setup violation  
+There is a large setup violation of -15.134 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[16]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#267 Warning
+Large setup violation  
+There is a large setup violation of -15.135 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_29_29/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#268 Warning
+Large setup violation  
+There is a large setup violation of -15.135 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#269 Warning
+Large setup violation  
+There is a large setup violation of -15.136 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#270 Warning
+Large setup violation  
+There is a large setup violation of -15.137 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#271 Warning
+Large setup violation  
+There is a large setup violation of -15.154 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_6_6/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#272 Warning
+Large setup violation  
+There is a large setup violation of -15.156 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#273 Warning
+Large setup violation  
+There is a large setup violation of -15.159 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#274 Warning
+Large setup violation  
+There is a large setup violation of -15.188 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[30]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#275 Warning
+Large setup violation  
+There is a large setup violation of -15.198 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_5_5/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#276 Warning
+Large setup violation  
+There is a large setup violation of -15.205 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_16_16/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#277 Warning
+Large setup violation  
+There is a large setup violation of -15.206 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_18_18/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#278 Warning
+Large setup violation  
+There is a large setup violation of -15.206 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[14] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#279 Warning
+Large setup violation  
+There is a large setup violation of -15.211 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_22_22/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#280 Warning
+Large setup violation  
+There is a large setup violation of -15.217 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[4] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#281 Warning
+Large setup violation  
+There is a large setup violation of -15.217 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[21]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#282 Warning
+Large setup violation  
+There is a large setup violation of -15.229 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#283 Warning
+Large setup violation  
+There is a large setup violation of -15.231 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#284 Warning
+Large setup violation  
+There is a large setup violation of -15.233 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[9] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#285 Warning
+Large setup violation  
+There is a large setup violation of -15.239 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#286 Warning
+Large setup violation  
+There is a large setup violation of -15.251 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[15] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#287 Warning
+Large setup violation  
+There is a large setup violation of -15.252 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#288 Warning
+Large setup violation  
+There is a large setup violation of -15.263 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#289 Warning
+Large setup violation  
+There is a large setup violation of -15.270 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_14/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#290 Warning
+Large setup violation  
+There is a large setup violation of -15.274 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#291 Warning
+Large setup violation  
+There is a large setup violation of -15.284 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_26_26/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#292 Warning
+Large setup violation  
+There is a large setup violation of -15.296 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_14_14/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#293 Warning
+Large setup violation  
+There is a large setup violation of -15.301 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#294 Warning
+Large setup violation  
+There is a large setup violation of -15.322 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#295 Warning
+Large setup violation  
+There is a large setup violation of -15.328 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#296 Warning
+Large setup violation  
+There is a large setup violation of -15.339 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#297 Warning
+Large setup violation  
+There is a large setup violation of -15.364 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[13] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#298 Warning
+Large setup violation  
+There is a large setup violation of -15.368 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[2] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#299 Warning
+Large setup violation  
+There is a large setup violation of -15.373 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIPADIP[1] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#300 Warning
+Large setup violation  
+There is a large setup violation of -15.390 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#301 Warning
+Large setup violation  
+There is a large setup violation of -15.390 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#302 Warning
+Large setup violation  
+There is a large setup violation of -15.401 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[9] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#303 Warning
+Large setup violation  
+There is a large setup violation of -15.409 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#304 Warning
+Large setup violation  
+There is a large setup violation of -15.417 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[4] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#305 Warning
+Large setup violation  
+There is a large setup violation of -15.419 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#306 Warning
+Large setup violation  
+There is a large setup violation of -15.443 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#307 Warning
+Large setup violation  
+There is a large setup violation of -15.448 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIADI[10] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#308 Warning
+Large setup violation  
+There is a large setup violation of -15.456 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIPADIP[0] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#309 Warning
+Large setup violation  
+There is a large setup violation of -15.462 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[10] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#310 Warning
+Large setup violation  
+There is a large setup violation of -15.519 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[12] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#311 Warning
+Large setup violation  
+There is a large setup violation of -7.988 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_1_fu_212/output_buffer_2_reg_287_reg[31]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#312 Warning
+Large setup violation  
+There is a large setup violation of -8.338 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_2_fu_225/output_buffer_2_reg_254_reg[31]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#313 Warning
+Large setup violation  
+There is a large setup violation of -8.447 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_5_fu_255/output_buffer_2_reg_216_reg[31]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#314 Warning
+Large setup violation  
+There is a large setup violation of -8.744 ns between design_1_i/top_net_0/inst/p1_output_U/top_net_p1_output_ram_U/ram_reg_1/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c2_output_U/top_net_c2_output_ram_U/ram_reg_1/DIADI[13] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#315 Warning
+Large setup violation  
+There is a large setup violation of -8.924 ns between design_1_i/top_net_0/inst/grp_conv1_1_fu_212/c1_weight_U/conv1_1_c1_weight_rom_U/q0_reg/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c1_output_U/top_net_c1_output_ram_U/ram_reg_7/DIADI[3] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#316 Warning
+Large setup violation  
+There is a large setup violation of -9.214 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_3_fu_235/output_buffer_2_reg_240_reg[31]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#317 Warning
+Large setup violation  
+There is a large setup violation of -9.372 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/grp_conv1_4_fu_245/output_buffer_2_reg_216_reg[31]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#318 Warning
+Large setup violation  
+There is a large setup violation of -9.376 ns between design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c5_output_U/top_net_c5_output_ram_U/ram_reg_0_15_31_31/SP/I (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#319 Warning
+Large setup violation  
+There is a large setup violation of -9.923 ns between design_1_i/top_net_0/inst/grp_conv1_4_fu_245/c4_weight_U/conv1_4_c4_weight_rom_U/q0_reg_5/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c4_output_U/top_net_c4_output_ram_U/ram_reg/DIBDI[13] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#320 Warning
+Large setup violation  
+There is a large setup violation of -9.966 ns between design_1_i/top_net_0/inst/grp_conv1_3_fu_235/c3_weight_U/conv1_3_c3_weight_rom_U/q0_reg_0_13/CLKARDCLK (clocked by clk_fpga_0) and design_1_i/top_net_0/inst/c3_output_U/top_net_c3_output_ram_U/ram_reg/DIBDI[13] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+
